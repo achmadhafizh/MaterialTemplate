@@ -1,0 +1,14 @@
+<tabs>
+    <tab
+        id="@+id/tab_favorites"
+        icon="@drawable/ic_favorite"
+        title="@string/favorite" />
+    <tab
+        id="@+id/tab_nearby"
+        icon="@drawable/ic_place"
+        title="@string/nearby" />
+    <tab
+        id="@+id/tab_friends"
+        icon="@drawable/ic_local_library"
+        title="@string/friends" />
+</tabs>

@@ -1,0 +1,101 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="@string/defaultfont" />
+
+            <com.achmadhafizh.materialtemplate.font.CustomAlexBrushText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="@string/alexfont"/>
+
+            <com.achmadhafizh.materialtemplate.font.CustomOswaldText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="@string/oswaldfont"/>
+
+            <com.achmadhafizh.materialtemplate.font.CustomRalewayBoldText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="@string/ralewayboldfont"/>
+
+            <com.achmadhafizh.materialtemplate.font.CustomRalewayLightText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="@string/ralewaylightfont"/>
+
+            <com.achmadhafizh.materialtemplate.font.CustomRalewayMediumText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="@string/ralewaymediumfont"/>
+
+            <com.achmadhafizh.materialtemplate.font.CustomRalewayRegularText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="@string/ralewayregularfont"/>
+
+            <com.achmadhafizh.materialtemplate.font.CustomRobotoBoldText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="@string/robotoboldfont"/>
+
+            <com.achmadhafizh.materialtemplate.font.CustomRobotoLightText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="@string/robotolightfont"/>
+
+            <com.achmadhafizh.materialtemplate.font.CustomRobotoMediumText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="@string/robotomediumfont"/>
+
+            <com.achmadhafizh.materialtemplate.font.CustomRobotoRegularText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="@string/robotoregularfont"/>
+
+            <com.achmadhafizh.materialtemplate.font.CustomRobotoCondensedBoldText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="@string/robotocondensedboldfont"/>
+
+            <com.achmadhafizh.materialtemplate.font.CustomRobotoCondensedLightText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="@string/robotocondensedlightfont"/>
+
+            <com.achmadhafizh.materialtemplate.font.CustomRobotoCondensedRegularText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="@string/robotoregularfont"/>
+        </LinearLayout>
+
+    </RelativeLayout>
+
+</ScrollView>
